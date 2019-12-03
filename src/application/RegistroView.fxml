@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="168.0" layoutY="60.0" text="REGISTRO" />
+      <JFXTextField fx:id="txusuario" layoutX="117.0" layoutY="120.0" promptText="Usuario" />
+      <JFXTextField fx:id="txnombre" layoutX="117.0" layoutY="192.0" text="Nombre" />
+      <JFXButton fx:id="Botonfinalizar" layoutX="134.0" layoutY="302.0" onAction="#pulsarfinalizar" text="Finalizar Registro" />
+      <JFXButton fx:id="Atras" layoutX="24.0" layoutY="31.0" onAction="#pulsarbotonatras" text="Atras" />
+      <JFXTextField fx:id="txpassword" layoutX="116.0" layoutY="254.0" text="Password" />
+   </children>
+</AnchorPane>
